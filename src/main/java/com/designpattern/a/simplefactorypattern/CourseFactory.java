@@ -1,6 +1,6 @@
-package com.designpattern.simplefactory;
+package com.designpattern.a.simplefactorypattern;
 
-import com.designpattern.simplefactory.course.ICourse;
+import com.designpattern.course.ICourse;
 
 /**
  * 简单工厂模式：不属于23种设计模式

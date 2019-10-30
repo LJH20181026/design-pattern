@@ -1,11 +1,7 @@
-package com.designpattern.simplefactory;
+package com.designpattern.a.simplefactorypattern;
 
-import com.designpattern.simplefactory.course.ICourse;
-import com.designpattern.simplefactory.course.JavaCourse;
-import com.designpattern.simplefactory.course.PythonCourse;
-import org.slf4j.LoggerFactory;
-
-import java.util.Calendar;
+import com.designpattern.course.ICourse;
+import com.designpattern.course.PythonCourse;
 
 public class CourseFactoryTest {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
