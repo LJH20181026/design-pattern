@@ -1,5 +1,8 @@
 package com.designpattern.b.singletonpattern.b.lazysingleton;
 
+/**
+ * 存在安全隐患
+ */
 public class SimpleLazySingleton {
 
     private static SimpleLazySingleton instance = null;
